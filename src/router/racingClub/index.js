@@ -2,7 +2,7 @@ import leaderBoard from '@/views/racingClub/leaderBoard'
 import leaderBoardDetail from '@/views/racingClub/leaderBoardDetail'
 const routes = [
   {
-    path: '/leaderboard',
+    path: '/',
     name: 'leaderBoard',
     component: leaderBoard
   },
