@@ -69,7 +69,7 @@ export default {
     const tableRowList = ['RANKS', 'DRIVER', 'CAR', 'LAP TIME', 'GAP', 'S1', 'S2', 'S3', 'ACTIONS']
 
     const jsonData = async () => {
-      await axios.get(`${process.env.BASE_URL}/220827_000043_R.json`).then((res) => {
+      await axios.get(`${process.env.BASE_URL}/resultData/220827_000043_R.json`).then((res) => {
         console.log(res)
         raceResultProcess(res)
       })
